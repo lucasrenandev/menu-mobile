@@ -1,3 +1,3 @@
 # menu-mobile
  
-Projetos com html, css e javascript
+Estudos com html, css e javascript
