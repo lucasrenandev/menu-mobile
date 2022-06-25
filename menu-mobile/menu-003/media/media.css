@@ -16,7 +16,8 @@
         text-align: center;
     }
 
-    nav ul.open {
+    nav ul.open {  /* classe adicionada via javascript */
+        
         left: 0;
     }
 
