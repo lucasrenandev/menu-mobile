@@ -1,0 +1,35 @@
+
+@media (max-width: 900px) {
+
+    .menu {
+        display: block;
+        z-index: 999;
+    }
+
+    nav ul {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #0392ac;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        transform: translateX(-100%);
+        transition: 0.4s ease;
+    }
+
+    nav ul.open {
+        transform: translateX(0);
+    }
+
+    nav ul li {
+        margin: 30px 0;
+    }
+
+    nav ul li a {
+        font-size: 1.4rem;
+    }
+
+
+}
