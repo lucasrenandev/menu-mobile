@@ -8,12 +8,12 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgb(197, 221, 226), rgb(14, 198, 223));
+    background: linear-gradient(90deg, rgb(173, 204, 209) 10%, rgb(14, 198, 223) 99%);
 }
 
 nav {
     height: 80px;
-    background-color: #8dcce9;
+    background-color: #3cb5ec;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,7 +51,7 @@ nav ul li a {
 
 .menu {
     cursor: pointer;
-    /* display: none; */
+    display: none;
 }
 
 .menu img {
