@@ -8,13 +8,12 @@
 }
 
 body {
-    background: linear-gradient(to bottom, rgb(177, 207, 219), rgb(110, 192, 230));
-    min-height: 100vh;
+    background: linear-gradient(90deg, rgb(197, 221, 226), rgb(14, 198, 223));
 }
 
 nav {
     height: 80px;
-    background-color: #237494;
+    background-color: #8dcce9;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,11 +23,12 @@ nav {
 
 nav .logo a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 nav .logo h1 {
     font-size: 2.2rem;
+    font-weight: 600;
 }
 
 nav ul {
@@ -43,14 +43,15 @@ nav ul li {
 
 nav ul li a {
     font-size: 1.2rem;
+    font-weight: 600;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 8px;
 }
 
 .menu {
     cursor: pointer;
-    display: none;
+    /* display: none; */
 }
 
 .menu img {
