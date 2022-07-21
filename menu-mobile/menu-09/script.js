@@ -6,11 +6,6 @@ menu.addEventListener('click', openMenu)
 
 function openMenu() {
 
-    if (nav.classList.contains('active')) {
-        nav.classList.remove('active')
-    }
-    else {
-        nav.classList.add('active')
-    }
+    nav.classList.toggle('active')
 }
 
